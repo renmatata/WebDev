@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 19, 19);
+    background-image: url("https://e0.pxfuel.com/wallpapers/329/765/desktop-wallpaper-web-design-dark-developer.jpg");
+    background-position: center;
+    background-size: cover  ;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    position:fixed;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 3em 45em;
+}
+header.sticky{
+    padding: .3em 45em;
+    background: #fff;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+header.sticky ul li a{
+    top: .5em;
+    color:black;
+}
+.col a{
+    text-align: center;
+    color:bisque;
+    text-decoration: none;
+}
+h1{
+    margin-top: 3em;
+    color:white;
+    font-size: 5em;
+    padding-left: 2%;
+    font-family: 'Alfa Slab One', cursive;
+}
+p{
+    color: aliceblue;
+    font-size: 1em;
+    padding-left: 2%;
+    margin-bottom: 15em;
+}
+.sub{
+    color:rgb(5, 5, 5);
+    display: inline-block;
+    transition: transform 0.5s;
+    background-color:aliceblue;
+    height: 11em;
+    width: 10em;
+    margin: 2em;
+    border: 3mm ridge rgba(2, 2, 2, 0.6);
+    border-radius: 2em;
+    background-position: center;
+    background-size: cover;
+}
+.item:hover{
+    text-decoration: underline;
+    color:black;
+}
+header.sticky ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color:black;
+}
+#bootstrap{
+    height: 10em;
+    background-color: dimgray;
+}
